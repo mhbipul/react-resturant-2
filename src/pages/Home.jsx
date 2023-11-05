@@ -6,9 +6,9 @@ import BannerImage from "../assets/pizza.jpeg";
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' style={{backgroundImage: `url(${BannerImage})` }} >
 
-        <div className="headerContainer" style={{backgroundImage: `url(${BannerImage})` }}>
+        <div className="headerContainer" >
           <h1>Hasan's Pizzeria </h1>
           <p>Just Taste it </p>
           <Link to={"/menu"}>
